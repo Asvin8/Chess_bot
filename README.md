@@ -1,4 +1,4 @@
-# ChessHacks 2025 Submission
+# Chess bot
 
 A chess bot built for ChessHacks 2025. It scores positions with a small CNN evaluator (`src/data_generation/chess_cnn_eval.pt`, PyTorch) and searches with time-limited alpha-beta (`src/main.py`, python-chess). A FastAPI server (`serve.py`) exposes it over HTTP.
 
